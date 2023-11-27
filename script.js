@@ -9,20 +9,6 @@ menuButton.addEventListener("click", () => {
 
 
 
-/*========= rolagem revelar==============*/
-ScrollReveal({
-    reset: true,
-    distance: '80px',
-    duration: 2000,
-    delay: 200,
-});
-
-ScrollReveal().reveal('.header-bottom-side, .page-inner-content', { origin: 'top' });
-ScrollReveal().reveal('.product, .header-bottom-side-right img' , { origin: 'bottom' });
-ScrollReveal().reveal('.header-bottom-side-left h2', { origin: 'left' });
-ScrollReveal().reveal('.cols-3', { origin: 'right' });
-
-
 /*=========efeito digitando js ==============*/
 const typed = new Typed('.multiple-text', {
     strings: ['Smart Band 4'],

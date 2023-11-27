@@ -5,19 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE-edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/animate.css" />
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <title>Blue Store - Loja de Eletrônicos</title>
 </head>
 <body>
-    <header class="navbar">
+    <header class="navbar wow fadeIn">
         <div class="header-inner-content">
             <h1 class="logo">BLUE<span>STORE</span></h1>
             <nav>
                 <ul class="btn">
                     <li><a href="#home" class="active">Home</a></li>
                     <li><a href="#produtos">Produtos</a></li>
-                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#comentarios">Sobre</a></li>
                     <li><a href="#contato">Contato</a></li>
                 </ul>
             </nav>
@@ -32,11 +33,11 @@
         <div class="header-inner-content">
             <div class="header-bottom-side">
                 <div class="header-bottom-side-left">
-                    <h2>De Um Novo Estilo ao Seu Trabalho!</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi atque praesentium nisi dolorem officiis numquam fugit eligendi odio beatae ipsa quibusdam.</p>
-                    <button>Ver Agora &#8594;</button>
+                    <h2 class="wow fadeInLeft delay-02s">De Um Novo Estilo ao Seu Trabalho!</h2>
+                    <p class="wow fadeInLeft delay-02s">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi atque praesentium nisi dolorem officiis numquam fugit eligendi odio beatae ipsa quibusdam.</p>
+                    <button class="wow fadeInUp delay-06s">Ver Agora &#8594;</button>
                 </div>
-                <div class="header-bottom-side-right">
+                <div class="header-bottom-side-right wow fadeInRight delay-08s">
                     <img src="images/gaming-msi-header.png" alt="#" />
                 </div>
             </div>
@@ -46,12 +47,12 @@
 
 
 <!--------Maain-------->
-<section class="gray-background">
+<section class="gray-background wow fadeIn">
     <div class="page-inner-content">
         <div class="cols cols-3">
-            <img src="images/products/product-1-removebg-preview.png" alt="#">
-            <img src="images/products/product-2-removebg-preview.png" alt="#">
-            <img src="images/products/product-3-removebg-preview.png" alt="#">
+            <img class="wow fadeIn delay-08s" src="images/products/product-1-removebg-preview.png" alt="#">
+            <img class="wow fadeIn delay-08s" src="images/products/product-2-removebg-preview.png" alt="#">
+            <img class="wow fadeIn delay-08s" src="images/products/product-3-removebg-preview.png" alt="#">
         </div>
     </div>
 </section>
@@ -59,11 +60,11 @@
 
 
 <!--------Produtos-------->
-<section class="produtos" id="produtos">
+<section class="produtos wow fadeIn delay-08s" id="produtos">
     <div class="page-inner-content">
-        <h3 class="section-title">Produtos Selecionados</h3>
+        <h3 class="section-title wow fadeIn">Produtos Selecionados</h3>
         <div class="subtitle-underline"></div>
-        <div class="cols cols-4">
+        <div class="cols cols-4 wow fadeUp">
             <div class="product">
                 <img src="images/products/product-4.png" alt="#"/>
                 <p class="product-name">Combo Gamer Maestion</p>
@@ -151,12 +152,12 @@
     <div class="gray-background">
         <div class="header-inner-content">
             <div class="header-bottom-side exclusive-container">
-                <div class="header-bottom-side-left">
+                <div class="header-bottom-side-left wow fadeInLeft">
                     <h2><span class="multiple-text"></span></h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi atque praesentium nisi dolorem officiis numquam fugit eligendi odio beatae ipsa quibusdam.</p>
-                    <button>Ver Agora &#8594;</button>
+                    <button class="wow fadeInUp delay-10s">Ver Agora &#8594;</button>
                 </div>
-                <div class="header-bottom-side-right">
+                <div class="header-bottom-side-right flutuar wow fadeInRight delay-08s">
                     <img src="images/exclusive.png" alt="#" />
                 </div>
             </div>
@@ -167,7 +168,7 @@
 
 
 <!--------comentarios-------->
-<section class="comentarios" id="sobre">
+<section class="comentarios wow fadeIn delay-08s" id="comentarios">
     <div class="page-inner-content">
         <div class="testemunhos">
             <div class="tertemunho1">
@@ -200,7 +201,7 @@
 
 <footer class="gray-background" id="contato">
     <div class="page-inner-content footer-content">
-        <div class="download-options">
+        <div class="download-options wow fadeInLeft">
             <p>Baixe nossa aplicação</p>
             <p>Baixe nossa aplicação para Android e IOS</p>
             <div class="img-logo">
@@ -210,12 +211,12 @@
             </div>
         </div>
 
-        <div class="logo-footer">
+        <div class="logo-footer wow fadeInUp">
             <h1 class="logo">BLUE<span>STORE</span></h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut rem repellendus fuga officiis ipsam.</p>
         </div>
 
-        <div class="links-footer">
+        <div class="links-footer wow fadeInRight">
             <h3>Redes Sociais</h3>
             <ul class="footer-btn">
                 <li><a href="#"><i class='bx bxl-instagram-alt'></i></a></li>
@@ -227,10 +228,11 @@
 
     <hr class="page-inner-content" />
 
-    <div class="page-inner-content copyright">
+    <div class="page-inner-content copyright wow fadeInUp">
         <p>Copyright 2023 - Blue Store - Todos os direitos Reservados</p>
     </div>
 </footer>
+
 
 
 <!--scroll reveal-->
@@ -239,6 +241,10 @@
 <!--typed js-->
 <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 
-<script src="script.js"></script>
+
+
+<script type="text/javascript" src="script.js"></script>
+<script type="text/javascript" src="wow.min.js"></script>
+<script>new WOW().init();</script>
 </body>
 </html>
